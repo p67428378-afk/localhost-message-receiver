@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Localhost Message Receiver</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Localhost Message Receiver</h1>
+        <div class="display-group">
+            <label>Received Message:</label>
+            <pre id="receivedMessage" class="message-display">Waiting for messages...</pre>
+        </div>
+        <div class="display-group">
+            <label>Sender Port:</label>
+            <span id="senderPort" class="port-display">N/A</span>
+        </div>
+        <div id="statusMessage" class="status-message"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
